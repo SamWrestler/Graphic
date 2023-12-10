@@ -1,0 +1,15 @@
+﻿Proj2.obj : error LNK2005: "void __cdecl display(void)" (?display@@YAXXZ) already defined in Proj1.obj
+Proj2.obj : error LNK2005: main already defined in Proj1.obj
+Proj1.obj : error LNK2019: unresolved external symbol __imp___glutInitWithExit referenced in function glutInit_ATEXIT_HACK
+Proj2.obj : error LNK2001: unresolved external symbol __imp___glutInitWithExit
+Proj1.obj : error LNK2019: unresolved external symbol __imp_glutMainLoop referenced in function main
+Proj2.obj : error LNK2001: unresolved external symbol __imp_glutMainLoop
+Proj1.obj : error LNK2019: unresolved external symbol __imp___glutCreateWindowWithExit referenced in function glutCreateWindow_ATEXIT_HACK
+Proj2.obj : error LNK2001: unresolved external symbol __imp___glutCreateWindowWithExit
+Proj1.obj : error LNK2019: unresolved external symbol __imp_glutDisplayFunc referenced in function main
+Proj2.obj : error LNK2001: unresolved external symbol __imp_glutDisplayFunc
+Proj2.obj : error LNK2019: unresolved external symbol __imp_glutInitDisplayMode referenced in function main
+Proj2.obj : error LNK2019: unresolved external symbol __imp_glutInitWindowPosition referenced in function main
+Proj2.obj : error LNK2019: unresolved external symbol __imp_glutInitWindowSize referenced in function main
+D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\lib\x64\glut32.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+D:\غیره\Mokhtari\C+\Graphic\Proj1\x64\Debug\Proj1.exe : fatal error LNK1120: 7 unresolved externals
